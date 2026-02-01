@@ -12,3 +12,18 @@ Answer: Yes, signals run in the same database transaction as the caller by defau
 If the caller’s transaction is rolled back, any changes made inside the signal handler are also rolled back. the db transactions prevents from commiting incomplete transactions. 
 
 
+RectangleQ2
+     Rectangle.py file has the Custom Class in Python for getting the length and width  of rectangle. initialie the instane and iterate the obj. 
+
+
+inside the sub folder there are:
+
+
+sub
+   RectangleQ2
+     Rectangle.py
+   accu
+     accu - urls.py
+     siggnal- app.py , views.py, signals.py, models.py
+    db.sqlite3
+    manage.py
